@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'docker build . -t golang'
+        echo 'Build complete'
       }
     }
 
