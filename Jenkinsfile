@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        input(message: 'Input', ok: 'Ok')
+      }
+    }
+
   }
 }
